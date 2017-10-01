@@ -361,7 +361,7 @@ html {
   color: darkblue;
   font-family: Helvetica Neue, Arial;
   line-height: 1.2;
-  background-color: lightcoral; }
+  background-color: plum; }
 
 body * {
   justify-content: center;
@@ -391,7 +391,7 @@ section {
   box-shadow: 1rem 1rem 1rem black;
   border: 1px solid black;
   margin-top: 1em;
-  background-color: #ee7272; }
+  background-color: lightcoral; }
   #anim #animBG {
     position: relative;
     width: 75rem;
