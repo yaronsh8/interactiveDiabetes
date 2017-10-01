@@ -154,11 +154,12 @@ __WEBPACK_IMPORTED_MODULE_1_jquery___default()(document).ready(function () {
     }
 
     function playDiabetecState() {
+	const MAX_BOXES = 10;
         let newGlucoseBox = createNewGlucoseBox();
         newGlucoseBox.classList.add("diabetec");
         diabetecBoxesCounter++;
         console.log(diabetecBoxesCounter);
-        diabetecBoxesCounter <= 20 && (elementCreationControl = setTimeout(playDiabetecState, 2500));
+        diabetecBoxesCounter < MAX_BOXES && (elementCreationControl = setTimeout(playDiabetecState, 2500));
         document.getElementsByClassName("cell")[0].classList.add("fatigued");
     }
 
